@@ -12,7 +12,6 @@ while user_num <= 10: # 논리형 조건식(end): 반복문의 끝값
 # 1 ~ 10까지의 누적합
 total = 0     # 총합을 누적저장할 변수
 num = 1          # 1~ 10까지 변경하면서 가질 변수 
-
 while num <= 10:
     total += num
     num += 1
@@ -24,7 +23,6 @@ print('=' * 40)
 
 # 7 ~ 100까지의 정수 중 7의 배수들만 가로로 출력하기
 num = 7
-
 while num <= 100:
     print(num, end=" ")
     num +=7
@@ -33,7 +31,6 @@ print() # 단순 줄개행
 
 # 1 ~ 100까지의 정수 중 4의 배수를 가로로 출력하기
 num = 1
-
 while num <= 100:
     if num % 4 == 0:
         print(num, end=" ")
@@ -44,7 +41,6 @@ print('=' * 40)
 
 # 1 ~ 100까지의 정수 중 6의 배수이면서 12의 배수가 아닌 수를 가로로 출력하기
 num =1
-
 while num <= 100:
     if num % 6 == 0 and num % 12 != 0:
         print(num, end=" ")
