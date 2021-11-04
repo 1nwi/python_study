@@ -45,3 +45,5 @@ for num in range(1, 9877):
     if num % 13 == 0:
         count += 1
 print(f'범위 안의 13의 배수의 숫자: {count}개')
+
+
