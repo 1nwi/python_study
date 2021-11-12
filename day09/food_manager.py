@@ -22,9 +22,9 @@ while True:
         print('\n======메뉴판======')
         for menu in foods:
             print(f' {menu} : {foods[menu]}원')
-            print('==================')
-            print('1. 수정 | 2. 삭제 | 3. 나가기')
-            choice = input('=> ')
+        print('==================')
+        print('1. 수정 | 2. 삭제 | 3. 나가기')
+        choice = input('=> ')
         if choice == '1':
             print('가격을 변경할 메뉴의 이름을 입력하세요.')
             old_food = input('=> ')
