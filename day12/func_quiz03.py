@@ -18,4 +18,4 @@ print('=' * 40)
 
 data_list = list(map(int, input("정수: ").split(" ")))
 
-print("최대값: {}".format(get_max(data_list)))
+# print("최대값: {}".format(get_max(data_list)))
