@@ -1,3 +1,23 @@
+def get_avg(numbers):
+    total = 0
+    for n in numbers:
+        total += n
+    return total / len(numbers)
+
+
+def get_max(numbers):
+    max = numbers[0]
+    for n in numbers:
+        if max < n:
+            max = n
+    return max
+
+def get_max2(numbers):
+    numbers.sort(reverse=True)
+    return numbers[0]
+
+def get_max3(numbers):
+    return max(numbers)
 
 
 
@@ -17,5 +37,6 @@
 print('=' * 40)
 
 data_list = list(map(int, input("정수: ").split(" ")))
-
+print("평균값: {}".format(get_avg(data_list)))
+print("최대값: {}".format(get_max(data_list)))
 # print("최대값: {}".format(get_max(data_list)))
