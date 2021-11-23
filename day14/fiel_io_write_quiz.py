@@ -23,7 +23,7 @@ f_name = input("파일명을 입력: ")
 f_path = "D:/isec_spring1/py_study/{}.txt".format(f_name)
 
 try:
-    f = open(f_path, "a", encoding='UTF-8')  # 내용을 추가하기 위해서 'a'를 사용
+    f = open(f_path, "a", encoding='UTF-8')  # 내용을 추가하기 위해서 'a'를 사용 / 'w' 는 덮어씌우기
     
     f.write(user_input)  # 입력된 내용을 줄단위로 구분하기 위해 줄바꿈 문자 삽입
     print("파일 저장 성공!")
@@ -31,23 +31,6 @@ except:
     print("파일 저장 실패!")
 finally:
     f.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 '''
 

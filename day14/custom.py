@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     print('__name__의 값(custom.py):',__name__)
 
-    print(convert_inch_to_cm(1))
+    print(convert_inch_to_cm(2))
     info()
     info()
     info()
